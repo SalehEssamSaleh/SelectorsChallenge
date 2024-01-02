@@ -21,13 +21,13 @@ This Frontend Challenge from Twitter
  
 ## What I learned from this Challenge:
 - How to use " nth-child & nth-of-type " Selectors
-- The CSS :active Selector is used to select and style the active button " Pressed Button " or link. 
+- The CSS :focus  Selector is used to select and style the focused button " Pressed Button " or link. 
 - How to call another Element in CSS using " ~ " for example:
 
   - I want to make an action on another element when I press a specific button =>
     - for example, the button has id = "btn-one", and the element I want to make an action on is some "div"
       - so to do all of this using CSS, all I need to use is this Magical tiny symbol ~
-      - so in CSS it will look like this =>  #btn-one:active ~ div:nth-child() { };
+      - so in CSS it will look like this =>  #btn-one:focus  ~ div:nth-child() { };
 ***
 After all the Challenge looked easy at the beginning but once I started Coding the real face of the Challenge appeared,
 but I enjoyed Practicing this Challenge and I gained new Information.
