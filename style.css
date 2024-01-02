@@ -1,0 +1,117 @@
+/* Import Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Titillium+Web&display=swap');
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-family: Titillium Web;
+    color: #0d1b2a;
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+    height: auto;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1 , .orange , a , h2{
+    font-family:Rubik Doodle Shadow;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color:#e76f51;
+}
+
+h2 , button {
+    font-size: 1.5em;
+}
+
+.orange {
+    color:#e76f51;
+}
+
+
+div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #e76f51;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    margin-right: 1%;
+    border-radius: 7px;
+    border: 2px solid #e76f51;
+}
+
+button:focus {
+    color: #e76f51;
+    background-color: #0d1b2a;
+    border: 2px solid #e76f51;
+}
+
+
+#first-child:focus ~ div:first-of-type {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#last-child:focus ~ div:last-of-type {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-2:focus ~ div:nth-of-type(2) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-last-child-2:focus ~ div:nth-last-of-type(2) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-odd:focus ~ div:nth-of-type(odd) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-even:focus ~ div:nth-of-type(even) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-n4:focus ~ div:nth-of-type(n+4) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-3n:focus ~ div:nth-of-type(3n-1) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-3n-1:focus ~ div:nth-of-type(3n+1) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
+
+#nth-child-4n:focus ~ div:nth-of-type(4n) {
+    background-color: #e76f51;
+    border: 2px solid #0d1b2a;
+}
